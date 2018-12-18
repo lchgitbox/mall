@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.lch.dao.GoodsDao"><!-- 命名空间 ：namespace与相应的接口名相同-->
+	
+	<select id="FindAllGoods" resultType="cn.lch.entity.Goods">
+		select * from goods
+	</select>
+
+</mapper>
